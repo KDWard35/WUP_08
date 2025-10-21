@@ -75,5 +75,14 @@ summary.lm(simp)
 
 This is weight predicted by chest. The adjusted r-squared value is 0.9262. The residual standard error is 33.08.
 
+DISCUSSION AND CONCLUSION
 
+Ranking for weight prediction from worst to best
+1.Age ARS:0.5526 RSE:81.47
+2.Head width ARS:0.6064 RSE:76.41
+3.Head length ARS:0.69 RSE:67.81
+4.Length ARS:0.7423 RSE:61.83
+5.Neck ARS:0.87 RSE:43.91
+6.Chest ARS:0.9262 RSE:33.08
 
+This ranking shows that chest is the best metric for predicting weight.
