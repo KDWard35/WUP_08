@@ -57,6 +57,11 @@ summary.lm(simp)
 
 This is weight predicted by head width. The adjusted r-squared value is 0.6064.
 
+```{r}
+simp <- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
 
-
-
+This is weight predicted by length. The adjusted r-squared value is 0.7423
