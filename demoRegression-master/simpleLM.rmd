@@ -39,4 +39,12 @@ summary.lm(simp)
 
 This is weight predicted by age. The adjusted r-squared value is 0.5526.
 
+```{r}
+simp <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+This is weight predicted by head length. The adjusted r-squared value is 0.69.
 
